@@ -1,51 +1,95 @@
 *{
     font-family: 'arial', sans-serif, monospace;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  background-color:#f2f5ff;
+}
+/*header formatting*/
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%;
+    flex-direction: row;
     background-color: #3838e3;
+    align-items: center;
+
 }
 h1{
+    background-color: #3838e3;
+    color: white;
     font-size: 200%;
-    color:white;
-}
-/*About me section*/
-h2{
-   position: relative; 
-}
-/*Nav links*/
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+    margin-left: 1%;
 }
 
-nav a {
-    font-weight: bold;
+/*nav link formatting*/
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+nav li{
+    font-size: 120%;
+    list-style-type: none;
+    margin-right: 10px;
 }
 nav a:link{
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
-nav a:visited{
-    color:white;
+nav a:visited {
+    color: white;
     text-decoration: none;
 }
 
-
-footer{
+/*about section */
+#about{
     display: flex;
-    background-color: #3838e3;
-    color: #fff;
-    justify-content: center;
-    padding: 1%;
+    justify-content:flex-start;
+    margin-top: 100px;
+}
+#about h2{
+    text-wrap: wrap;
+    font-size: 300%;
+    line-height: 150%;
+    margin-right: 5%;
+    margin-left: 3%;
+
+}
+
+#about p{
+    padding: 5px;
+    text-wrap: wrap;
+    max-width: 60%;
+}
+
+
+.works{
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    flex: 1 0 70%;
 }
-/* Spacing for footer text */
-footer p{
-    margin-left: 10px;
-    margin-right: 10px;
+.works h2{
+    font-size: 300%;
 }
+.works img{
+    margin:5px;
+}
+#calc, #game {
+    flex-basis:49%;
+}
+#framework{
+    max-width: 45%;
+    height: auto;
+}
+#calc, #game{
+    max-width: 30%;
+    height: auto;
+}
+
+
