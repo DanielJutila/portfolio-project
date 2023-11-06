@@ -16,3 +16,8 @@ https://www.google.com/search?sca_esv=579945731&sxsrf=AM9HkKmj2cgVxVzQTzUOZDok0h
 GAME
 
 https://www.google.com/search?sca_esv=579932655&sxsrf=AM9HkKmSD4zdlnp3_X92EbAod6D5zbz6pg:1699310909387&q=game+stock+photo&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwixqve4urCCAxV2nokEHcOjCLYQ0pQJegQIDBAB&biw=1549&bih=765&dpr=1.1#imgrc=lset1DvGG64aeM
+
+
+IMAGE overlay source
+
+https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/#:~:text=Overlaying%20Text%20on%20an%20Image%20in%20HTML%20and%20CSS,-HTML&text=In%20the%20body%20section%2C%20create,and%20add%20your%20text%20inside.

@@ -1,5 +1,6 @@
 *{
     font-family: 'arial', sans-serif, monospace;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -67,29 +68,56 @@ nav a:visited {
     max-width: 60%;
 }
 
-
 .works{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex: 1 0 70%;
+    display: block;
+    margin-top: 20%;
+    position:relative;
+    text-align: center;
 }
 .works h2{
     font-size: 300%;
 }
 .works img{
     margin:5px;
-}
-#calc, #game {
-    flex-basis:49%;
+    vertical-align: middle;
 }
 #framework{
-    max-width: 45%;
+    max-width: 40%;
     height: auto;
 }
 #calc, #game{
-    max-width: 30%;
+    max-width: 25%;
     height: auto;
 }
+#framework-desc figcaption{
+    position:absolute;
+    top:45%;
+    left: 35%;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+#calc-desc figcaption{
+    position:absolute;
+    top:70%;
+    left: 38%;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+#game-desc figcaption{
+    position:absolute;
+    top:95%;
+    left: 38%;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 25px;
+}
 
-
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3838e3;
+    color: white;
+    padding: 1%;
+}
