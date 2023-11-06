@@ -1,0 +1,51 @@
+*{
+    font-family: 'arial', sans-serif, monospace;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #3838e3;
+}
+h1{
+    font-size: 200%;
+    color:white;
+}
+/*About me section*/
+h2{
+   position: relative; 
+}
+/*Nav links*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    font-weight: bold;
+}
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+nav a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+
+footer{
+    display: flex;
+    background-color: #3838e3;
+    color: #fff;
+    justify-content: center;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+/* Spacing for footer text */
+footer p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
