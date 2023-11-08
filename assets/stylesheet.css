@@ -68,9 +68,10 @@ nav a:visited {
     max-width: 60%;
 }
 
+/*pictures and stuff*/
 .works{
     display: block;
-    margin-top: 20%;
+    margin-top: 10%;
     position:relative;
     text-align: center;
 }
