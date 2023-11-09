@@ -81,15 +81,25 @@ nav a:visited {
 .works img{
     margin:5px;
     vertical-align: middle;
+    
+}
+
+/*hovering affect*/
+img:hover{
+    opacity: .5;
 }
 #framework{
     max-width: 40%;
     height: auto;
 }
-#calc, #game{
-    max-width: 25%;
-    height: auto;
+
+#calc-desc, #game-desc {
+    flex-wrap: wrap;
+    width: 25%;
+    align-items: center;
+    margin-left: 38%;
 }
+
 #framework-desc figcaption{
     position:absolute;
     top:45%;
@@ -121,4 +131,27 @@ footer{
     background-color: #3838e3;
     color: white;
     padding: 1%;
+}
+
+@media only screen and (max-width: 900px){
+    h1{
+        font-size: 100%;
+    }
+    header{
+        font-size: 100%;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .works{
+        max-width: 100%;
+    }
+    figcaption{
+        visibility: hidden;
+    }
+    nav{
+        min-width: none;
+        justify-content: right;
+        margin: 0;
+    }
 }
